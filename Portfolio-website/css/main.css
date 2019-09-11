@@ -1,0 +1,61 @@
+#main-header{
+    text-align: center; 
+    font-size: 30px;
+}
+
+#navbar{
+    background-color: darkgray;
+    color: white
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:black;
+    text-decoration: none;
+    font-size: 19px;
+    padding-right: 15px
+}
+
+form{
+    width: 33%;
+    margin: 20px auto;
+    border: 1px solid steelblue;
+    padding: 15px
+}
+form input{
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding:5px;
+}
+
+figure{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+figure>img{
+    display: block;
+    margin: 20px auto;
+    height: 300px;
+    width: 600px;
+}
+
+.image_cap{
+    font-size:200%;
+    font-weight: bold;
+}
+
+h1[id="super lg text"]{
+    color: blue;
+}
+
