@@ -1,73 +1,87 @@
 form{
-margin-top: 50px;
-border: 1px solid grey;
-padding: 30px;
-
-}
-
-form input{
-    display: block;
-    width: 80%;
-    text-align: center
-}
-
-h5{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-button[type="submit"]{
-    display: block;
-    width: 100%;
-    background-color: orange; 
-    transform: translate(0rem, 0px); 
-    color: black;
-}
-
-
-
-button[type="submit2"]{
-    position: absolute;
-    background-color: lightgray; 
-    display: inline-block;
-    transform: translate(-26rem, -15px); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    margin-top: 50px;  
-    color: black;
-    border-color: lightgray;
-    width: 94%;
+    margin-top: 50px;
+    border: 1px solid grey;
+    padding: 30px;
     
-}
-
-input[type="email"]{
-    width: 100%;
-}
-
-input[type="password"]{
-    width: 100%;
-}
-
-.forgot-pass{
-    display: inline-block;
-    position: absolute;
-    transform: translate(5rem, 0px);
-    margin-left: 85px;
-}
-
-.place-holder{
-    display:block;
-    margin: 0 auto;
-    margin-top: 75px;
-}
-
-.container{
-    display:inline-block;
-    height: 2px;
-    width: 134px;
-    background-color:#dadada;
-    margin-bottom: 3px;
-    margin-left:10px;
-}
-.Amazon{
-    display:inline-block;
-}
+    }
+    
+    form input{
+        display: block;
+        width: 80%;
+        text-align: center
+    }
+    
+    h5{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    button[type="submit"]{
+        display: block;
+        width: 100%;
+        background-color: orange; 
+        transform: translate(0rem, 0px); 
+        color: black;
+    }
+    
+    
+    
+    button[type="submit2"]{
+        position: absolute;
+        background-color: lightgray; 
+        display: inline-block;
+        transform: translate(-26rem, -15px); 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        margin-top: 50px;  
+        color: black;
+        border-color: lightgray;
+        width: 94%;
+        
+    }
+    
+    input[type="email"]{
+        width: 100%;
+    }
+    
+    input[type="password"]{
+        width: 100%;
+    }
+    
+    .forgot-pass{
+        display: inline-block;
+        position: absolute;
+        /*Suggested Change - Joel
+                transform: translate(3rem, 0px);
+        */
+    
+        transform: translate(5rem, 0px);
+        margin-left: 85px;
+    }
+    
+    .place-holder{
+        display:block;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+    
+    .container{
+    
+        /* Suggested Changes - Joel */
+    
+        display: inline-block;
+        /* height: 2px; */
+        /* width: 134px; */
+        /* background-color: #dadada; */
+        border-top: 1px solid grey;
+        /* margin-left: 10px; */
+        position: relative;
+        /* z-index: 5; */
+    }
+    .Amazon{
+        display: inline-block;
+        /*Suggested Changes - Joel */
+        z-index: 5;
+        position: absolute;
+        background-color: white;
+        transform: translate(120px,-20px);
+    }
